@@ -18,7 +18,13 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "astrodark",
+  -- colorscheme = "astrodark",
+  colorscheme = "gruvbox",
+  highlights = {
+    gruvbox = {
+      StatusLine = { fg = "#ebdbb2", bg = "#504945" },
+    },
+  },
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
